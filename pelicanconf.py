@@ -35,8 +35,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('My Github', 'https://github.com/NotANormalNerd'),
-          ('My 500px', 'https://500px.com/NotANormalNerd'),
-	  ('My Twitter', 'https://twitter.com/NotANormalNerd'),
 	  ('My Youtube','https://www.youtube.com/channel/UClA9wH2otcsK5ovpQRxDK3g'))
 
 DEFAULT_PAGINATION = 10

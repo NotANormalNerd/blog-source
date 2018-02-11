@@ -12,7 +12,7 @@
         {% endif %}
 
         <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
@@ -25,7 +25,7 @@
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU -%}
-                {% for pg in PAGES %}
+                {% for pg in pages %}
                     <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
                 {% endfor %}
                 {% endif %}
@@ -62,7 +62,5 @@
                 <p>The theme is based on the notmyidea theme, by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a></p>
         </footer><!-- /#contentinfo -->
 
-{% include 'analytics.html' %}
-{% include 'disqus_script.html' %}
 </body>
 </html>
